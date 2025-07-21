@@ -64,6 +64,28 @@ Mid element is less than the target. As the array is sorted, the right part of t
 
 ---
 
+### :nut_and_bolt: Full Code ~python
+
+````python
+arr = [1, 2, 5, 7, 9 , 11, 24, 28]
+target = 11
+l = 0,
+r = len(arr) - 1
+def binary_search(arr):
+	while l <= r:
+		mid = l + (r - l)/
+		if arr[mid] == target:
+			return mid
+		elif arr[mid] > target:
+			r = mid - 1
+		else:
+			l = mid + 1
+	return -1 # no target found
+print(binary_search(arr, target))
+# index of target: 5
+```
+
+
 ## 📌 Problem 1: Find the Smallest Number Strictly Greater than K
 
 ### Problem
@@ -75,4 +97,4 @@ Given a **sorted array**, find the smallest number that is **strictly greater** 
 ```text
 Input: nums = [2, 4, 6, 8, 10], K = 6
 Output: 8
-```
+````
