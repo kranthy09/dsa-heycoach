@@ -106,15 +106,15 @@ Assume after `k` iterations, `n` becomes 1,
 such that,
 $`1 = n/2^k`$
 
-apply $`log2`$ on both sides,
+apply $`log`$ on both sides,
 
-$`log~2~n = log~2~2^k`$
+$`log n = log 2^k`$
 
 which results in,
 
-$`k = logn`$
+$`k = log n`$
 
-Hence the time complexity to find one element using binary search will be **O(logn)**
+Hence the time complexity to find one element using binary search will be **O(log n)**
 
 ---
 
