@@ -38,7 +38,7 @@ Initially define the search space with 'l', 'r', and 'mid' for comparing with th
 
 ---
 
-**Note**: mid is updated with `mid = l + (r-l)/2)` instead with `mid = (l+r)/2`. Hence the l, r can be integers of maximum value 2^31^-1. `l+r` will execeed 2^31^. An overflow condition occurs when the result of an arithmetic operation exceeds the maximum value that a given data type can represent, leading to an incorrect or unexpected result.
+**Note**: mid is updated with `mid = l + (r-l)/2)` instead with `mid = (l+r)/2`. Hence the l, r can be integers of maximum value 2^31-1. `l+r` will execeed 2^31. An overflow condition occurs when the result of an arithmetic operation exceeds the maximum value that a given data type can represent, leading to an incorrect or unexpected result.
 
 ---
 
