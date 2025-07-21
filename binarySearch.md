@@ -25,13 +25,13 @@ To find an element in an array we have to define the search space where the targ
 # An array of size n, with a 'target' element to be found
 l=0, r=n-1 # initial search space (complete array)
 while l<=r:
-	mid = l + (r-l)//2
-	if arr[mid] == target:
-		return mid
-	elif arr[mid] > target:
-		move the search space to left
-	else:
-		move the search space to right
+ mid = l + (r-l)//2
+ if arr[mid] == target:
+  return mid
+ elif arr[mid] > target:
+  move the search space to left
+ else:
+  move the search space to right
 ```
 
 Initially define the search space with 'l', 'r', and 'mid' for comparing with the target.
