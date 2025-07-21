@@ -83,8 +83,11 @@ def binary_search(arr):
 print(binary_search(arr, target))
 # index of target: 5
 ```
+
 ### Time Complexity:
+
 Time complexity is nothing but the number of computations made by the algorithm. On each iteration the search space will be reduced to half such that search space will become 1.
+
 ```
 | Computations | Seach space(n) |
 | ------------ | -------------- |
@@ -97,17 +100,19 @@ Time complexity is nothing but the number of computations made by the algorithm.
        .                  .
        k                  1
 ```
-Assume after ```k``` iterations, ```n``` becomes 1,
 
-such that, 1 = n/2^k^
+Assume after `k` iterations, `n` becomes 1,
 
-apply 'log~2~' on both sides,
+such that,
+$`1 = n/2^k`$
 
-log~2~n = log~2~2^k^
+apply $`log2`$ on both sides,
+
+$`log~2~n = log~2~2^k`$
 
 which results in,
 
-k = log~2~n
+$`k = logn`$
 
 Hence the time complexity to find one element using binary search will be **O(logn)**
 
