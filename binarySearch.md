@@ -70,15 +70,16 @@ target = 11
 l = 0,
 r = len(arr) - 1
 def binary_search(arr):
-	while l <= r:
-		mid = l + (r - l)/
-		if arr[mid] == target:
-			return mid
-		elif arr[mid] > target:
-			r = mid - 1
-		else:
-			l = mid + 1
-	return -1 # no target found
+ while l <= r:
+  mid = l + (r - l)//2
+  if arr[mid] == target:
+   return mid
+  elif arr[mid] > target:
+   r = mid - 1
+  else:
+   l = mid + 1
+ return -1 # no target found
+ 
 print(binary_search(arr, target))
 # index of target: 5
 ```
