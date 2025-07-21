@@ -98,12 +98,17 @@ Time complexity is nothing but the number of computations made by the algorithm.
        k                  1
 ```
 Assume after ```k``` iterations, ```n``` becomes 1,
-such that,
-	1 = n/2^k^
+
+such that, 1 = n/2^k^
+
 apply 'log~2~' on both sides,
+
 log~2~n = log~2~2^k^
+
 which results in,
+
 k = log~2~n
+
 Hence the time complexity to find one element using binary search will be **O(logn)**
 
 ---
