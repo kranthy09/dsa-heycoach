@@ -62,11 +62,9 @@ Mid element is less than the target. As the array is sorted, the right part of t
 
 - `r` becomes `mid-1` and `l` remains same.
 
----
-
 ### :nut_and_bolt: Full Code ~python
 
-````python
+```python
 arr = [1, 2, 5, 7, 9 , 11, 24, 28]
 target = 11
 l = 0,
@@ -85,6 +83,7 @@ print(binary_search(arr, target))
 # index of target: 5
 ```
 
+---
 
 ## 📌 Problem 1: Find the Smallest Number Strictly Greater than K
 
@@ -97,4 +96,4 @@ Given a **sorted array**, find the smallest number that is **strictly greater** 
 ```text
 Input: nums = [2, 4, 6, 8, 10], K = 6
 Output: 8
-````
+```
