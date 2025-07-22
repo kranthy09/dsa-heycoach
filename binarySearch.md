@@ -192,19 +192,20 @@ Explanation: Target element 5 occurs 4 times in the array
 ## 📌 Performing binary search on unsorted array
 
 
-There is case where you have to search for an element inside an unsorted array. Now binary search cannot able to perform directly. So we have to preprocess the array and perform binary search. There are two steps involved,
+There is a case where you have to search for an element inside an unsorted array. Now binary search cannot able to perform directly. So we have to preprocess the array and perform binary search. This involves two steps,
 1. Preprocess: Sort the array
 2. Perform binary search
 
 - In 1st step, Time complexity to sort an array will be O(nlogn)
-- 2nd step the time complexity will be O(logn), totally taking O(nlogn + logn).
+- 2nd step the time complexity will be O(logn)
+- total TC: O(nlogn + logn).
 
-But there is already an efficient solution which can be achieved in O(n) time complexity is linear search (Brute force)[initial approach preferred]
+But there is already an efficient solution which can be achieved in O(n) time complexity is linear search (Brute force)
 
-Time complexity for linear search will be less than that of preprocess and apply binary search. In this choosing linear search over binary search makes it easy to find one element.
+Time complexity for linear search will be less than that of by preprocess and apply binary search. In this scenario choosing linear search over binary search makes it easy to find one element.
 
-Suppose, there are 'k' queries to perform on unsorted array to search for a number in each query, then the brute force (linear search) time complexity will be O(k*n) and by preprocess, perform binary search the time complexity will be same as before i.e., O(nlogn + klogn)
+Suppose, there are 'k' queries to perform on unsorted array to search for a number in each query, then the brute force (linear search) time complexity will be O(k*n) and by preprocess, perform binary search the time complexity will be O(nlogn + klogn)
 
 - Hence O(k*n) > O(nlogn + klogn)
 
-So here preprocessing the array and perforing binary search makes it easy to find queries of elements.
+So here preprocessing the array and performing binary search makes it easy to find queries of elements.
