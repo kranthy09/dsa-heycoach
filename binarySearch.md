@@ -130,3 +130,61 @@ Given a **sorted array**, find the smallest number that is **strictly greater** 
 Input: nums = [2, 4, 6, 8, 10], K = 6
 Output: 8
 ```
+
+## 📌 Problem 2: Find the peak element
+
+### Problem
+
+A peak element is an element that is strictly greater than its neighbors.
+
+Given a 0-indexed integer array nums, find a peak element, and return its index. If the array contains multiple peaks, return the index to any of the peaks.
+
+### Example
+
+```text
+Input: nums = [1,2,3,1]
+Output: 2
+Explanation: 3 is a peak element and your function should return the index number 2.
+```
+
+## 📌 Problem 3: Find the minimum in rotated sorted array
+
+### Problem
+
+Given the sorted rotated array nums of unique elements, return the minimum element of this array.
+
+### Example
+
+```text
+Input: nums = [3,4,5,1,2]
+Output: 1
+Explanation: The original array was [1,2,3,4,5] rotated 3 times.
+```
+
+## 📌 Problem 4: Sqrt(x)
+
+### Problem
+
+Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well.
+
+### Example
+
+```text
+Input: x = 8
+Output: 2
+Explanation: The square root of 8 is 2.82842..., and since we round it down to the nearest integer, 2 is returned.
+```
+
+## 📌 Problem 5: Count occurencers
+
+### Problem
+
+Given a sorted array, count the number of occurences of an element.
+
+### Example
+
+```text
+Input: arr = [2, 3, 4, 4, 5, 5, 5, 5, 6], target = 5
+Output: 4
+Explanation: Target element 5 occurs 4 times in the array
+```
