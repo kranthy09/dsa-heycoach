@@ -40,6 +40,9 @@ class NextGreaterElement:
         element, that cannot be a NGE, if the current element is greater the
         top that means, it can become NGE to all the elements that are smaller
         to the current element
+
+        TC: O(n)
+        SC: O(n)
         """
         res = [-1] * len(self.arr)
         stack = []
