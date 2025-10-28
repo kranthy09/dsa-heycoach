@@ -20,6 +20,9 @@ class CountOperations:
         such that it becomes balanced expression.
         consider all subsets positions of arr and flip them, and check
         whether the arr is balanced.
+
+        TC: O(N^2)
+        SC: O(N)
         """
         n = len(self.arr)
         min_val = []
@@ -47,6 +50,9 @@ class CountOperations:
         at last the stack contains the unbalanced brackets, now
         find the operating required for making the string balanced
         with remaianing unbalanced bracket.
+
+        TC: O(N)
+        SC: O(N)
         """
         n = len(self.arr)
         stack = []
