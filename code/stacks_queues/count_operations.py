@@ -45,11 +45,11 @@ class CountOperations:
     def expected_approach(self):
         """
         consider the stack, if there an opening push into stack
-        and if the next coming element is closing brack pop the
+        and if the next coming element is closing bracket pop the
         the opening bracket so that balanced pattern is removed.
         at last the stack contains the unbalanced brackets, now
-        find the operating required for making the string balanced
-        with remaianing unbalanced bracket.
+        find the operations required for making the string balanced
+        with remaining unbalanced bracket.
 
         TC: O(N)
         SC: O(N)
