@@ -53,8 +53,8 @@ class ValidParentheses:
         is valid parentheses, pop from the stack.
         at the end stack should be empty if the string has
         valid parentheses.
-        TC:
-        SC:
+        TC: O(n)
+        SC: O(n)
         """
         stack = []
         hmap = {
