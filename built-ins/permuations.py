@@ -23,7 +23,7 @@ def permutations_lexicographic_explained(iterable, r=None):
     indices = list(range(n))  # [0, 1, 2, ..., n-1]
     cycles = list(range(n, n - r, -1))  # [n, n-1, n-2, ..., n-r+1]
 
-    print(f"\nInitial state:")
+    print("\nInitial state:")
     print(f"indices: {indices}")
     print(f"cycles:  {cycles}")
     print(f"cycles meaning: {[f'pos{i}→{cycles[i]}' for i in range(r)]}")
@@ -117,7 +117,8 @@ def visualize_cycles_concept():
     print("Example of cycling at position 1:")
     print("Before: indices = [0, 2, 1, 3] (representing A, C, B, D)")
     print(
-        "After:  indices = [0, 1, 3, 2] (moved element 2 to end, shifted others)"
+        "After:  indices = [0, 1, 3, 2] \
+            (moved element 2 to end, shifted others)"
     )
 
 
